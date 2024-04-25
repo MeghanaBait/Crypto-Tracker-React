@@ -1,3 +1,45 @@
+
+# Crypto Tracker using React
+
+This project is a cryptocurrency tracker that allows users to view real-time data, compare cryptocurrencies, and manage a watchlist of favorite coins. It is built using React and leverages various npm packages and APIs for data retrieval and visualization.
+
+
+
+## Deployed Link
+
+```bash
+  https://crypto-tracker-meghana-bait.netlify.app/
+```
+
+
+##  Components
+
+### Landing Page
+The landing page features a dynamic UI with animations created using Framer Motion. It includes a Mui Drawer for navigation, text stroke effects, and hover animations for interactive elements.
+
+### Dashboard Page
+The dashboard utilizes a Mui Tab component for navigation and fetches real-time data from the Coingecko API using Axios. Data visualization is achieved using Mui components and custom functions for formatting numbers and handling search functionality. Pagination is implemented using Mui components, and animations are added for smooth transitions.
+
+### Coin Page
+The coin page dynamically fetches data for specific cryptocurrencies, displays price graphs using react-chartjs-2, and allows users to customize the time range for data visualization. Additional features include toggle buttons for different metrics for graph and Read More/Read Less functionality.
+
+### Compare Page
+The compare page allows users to compare two cryptocurrencies simultaneously using separate y-axes and datasets. It features a Mui Select component for choosing coins, ensuring no duplication of selections for comparison.
+
+### Watchlist
+The watchlist functionality allows users to add and remove favorite coins using local storage.
+
+
+
+## Technologies Used
+
+- React
+- Material-UI
+- Framer Motion
+- Axios
+- react-chartjs-2
+- react-toastify
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,9 +1,10 @@
 import React from 'react'
-import Buttton from '../../common/button'
+import Button from '../../common/button'
 import './style.css';
 import phone from "../../../assets/phone.png";
 import {motion} from "framer-motion";
 import { Link } from 'react-router-dom';
+import ShareButton from '../../common/shareButton';
 
 
 function MainComponent() {
@@ -36,13 +37,13 @@ function MainComponent() {
             transition={{duration:0.5, delay:1}}
             >
             <Link to="/dashboard">
-            <Buttton 
+            <Button 
                     text={"Dashboard"} 
                     outLined={false}
                     onClick={() => console.log("btn Clicked")}
             />
             </Link>
-            <Buttton 
+            <ShareButton 
                     text={"Share"} 
                     outLined={true}
                     onClick={() => console.log("btn Clicked")}

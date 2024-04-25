@@ -3,11 +3,11 @@ import "./style.css"
 
 function Button({text, onClick, outLined}) {
   return (
-    <div className={outLined ? "outlined-btn" : "btn"} 
+    <button className={outLined ? "outlined-btn" : "btn"} 
     onClick={()=> onClick()}
     >
       {text}
-    </div>
+    </button>
   )
 }
 

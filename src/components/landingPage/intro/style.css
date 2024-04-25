@@ -79,7 +79,7 @@
     }
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:900px){
     .track-crypto-heading{
         font-weight: 500;
     }
@@ -107,15 +107,12 @@
 
     .right-component img{
         margin-top: 2rem;
-        /* width: 100%;
-        right: -40%; */
     }
 }
 
-@media only screen and (max-width:550px){
-    .right-component img{
-        margin-top: 2rem;
+@media only screen and (max-width:500px){
+    .right-component{
         width: 100%;
-        right: -40%;
+        right: -30%;
     }
 }
