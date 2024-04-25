@@ -1,0 +1,121 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 5rem;
+    margin: 0 2rem;
+}
+
+
+.track-crypto-heading, .real-time-heading{
+    font-size: 6.5rem;
+    margin: 0;
+}
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.track-crypto-heading:hover{
+    color: var(--black);
+    -webkit-text-stroke-color: var(--white);
+    transition: all 0.5s;
+}
+
+.real-time-heading{
+    color: var(--primary);
+}
+
+.info-text{
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.right-component{
+    width: 50%;
+    position:relative;
+    padding: 1rem;
+}
+
+.right-component img{
+    position: absolute;
+    min-width: 350px;
+    width: 500px;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (max-width:1290px){
+    .track-crypto-heading, 
+    .real-time-heading{
+        font-size: 5rem;
+    }
+    .right-component img{
+        min-width:300px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:1185px){
+    .track-crypto-heading, 
+    .real-time-heading{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .track-crypto-heading, 
+    .real-time-heading{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .track-crypto-heading{
+        font-weight: 500;
+    }
+    .track-crypto-heading, 
+    .real-time-heading, 
+    .info-text{
+        text-align: center;
+    }
+
+    .btn-flex{
+        justify-content: center;
+    }
+    
+    .flex-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-component{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-component img{
+        margin-top: 2rem;
+        /* width: 100%;
+        right: -40%; */
+    }
+}
+
+@media only screen and (max-width:550px){
+    .right-component img{
+        margin-top: 2rem;
+        width: 100%;
+        right: -40%;
+    }
+}
